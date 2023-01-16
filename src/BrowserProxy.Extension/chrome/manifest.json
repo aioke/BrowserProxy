@@ -1,10 +1,10 @@
 ﻿{
-  "name": "Cloudflare bypass",
+  "name": "BrowserProxy",
   "description": "Allows to bypass cloudflare checks",
   "version": "1.0",
   "manifest_version": 3,
   "action": {
-    "default_title": "Cloudflare bypass"
+    "default_title": "BrowserProxy"
   },
   "background": {
     "service_worker": "background.js"
