@@ -1,0 +1,28 @@
+﻿{
+  "name": "Cloudflare bypass",
+  "description": "Allows to bypass cloudflare checks",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Cloudflare bypass"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "webNavigation",
+	"storage",
+	"scripting"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "icons": {
+    "19": "icon19.png",
+    "38": "icon38.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
