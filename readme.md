@@ -1,6 +1,6 @@
 # BrowserProxy
 
-Allows to bypass Cloudflare bots check.
+Allows to bypass Cloudflare bots check (captcha).
 
 # How to use
 
